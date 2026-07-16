@@ -1,0 +1,18 @@
+
+Shortest paths from vertex 0
+
+  Vertex   Distance                      Path
+--------------------------------------------------
+       0          0                         0
+       1          3               0 -> 2 -> 1
+       2          1                    0 -> 2
+       3          4          0 -> 2 -> 1 -> 3
+       4          7     0 -> 2 -> 1 -> 3 -> 4
+       5          9 0 -> 2 -> 1 -> 3 -> 4 -> 5
+
+========== Analysis ==========
+Reachable Vertices : 6
+Nearest Vertex : 2 (Distance = 1)
+Farthest Vertex : 5 (Distance = 9)
+
+Dijkstra's algorithm successfully computed the shortest paths from the source vertex.

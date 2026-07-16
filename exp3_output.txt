@@ -1,0 +1,27 @@
+
+========== KRUSKAL'S MST ==========
+Edge (0 - 3)   Weight = 5
+Edge (2 - 4)   Weight = 5
+Edge (3 - 5)   Weight = 6
+Edge (0 - 1)   Weight = 7
+Edge (1 - 4)   Weight = 7
+Edge (4 - 6)   Weight = 9
+
+Total Cost : 39
+Edges Selected : 6
+
+========== PRIM'S MST ==========
+Edge (0 - 3)   Weight = 5
+Edge (3 - 5)   Weight = 6
+Edge (0 - 1)   Weight = 7
+Edge (1 - 4)   Weight = 7
+Edge (4 - 2)   Weight = 5
+Edge (4 - 6)   Weight = 9
+
+Total Cost : 39
+Edges Selected : 6
+
+========== COMPARISON ==========
+Both algorithms produced the SAME minimum cost.
+Both MSTs contain 6 edges.
+Both algorithms are equally efficient for this graph.

@@ -1,0 +1,28 @@
+Text    : AABAACAADAABAABA
+Pattern : AABA
+
+----- Search Results -----
+Naive Search      -> Matches: [0, 9, 12], Comparisons: 30
+KMP Search        -> Matches: [0, 9, 12], Comparisons: 18
+Rabin-Karp Search -> Matches: [0, 9, 12], Comparisons: 12
+
+Total Matches Found : 3
+Best Algorithm  : Rabin-Karp
+Worst Algorithm : Naive
+Verification    : All algorithms produced the same result.
+
+Performance Comparison
+     Pattern      Naive        KMP         RK
+--------------------------------------------------
+          AB      12446      10000       1160
+Best for 'AB' pattern : RK
+
+        ABCD      13160      10000        180
+Best for 'ABCD' pattern : RK
+
+      ABCDAB      13191      10006        108
+Best for 'ABCDAB' pattern : RK
+
+    ABCDABCD      13190      10007        147
+Best for 'ABCDABCD' pattern : RK
+

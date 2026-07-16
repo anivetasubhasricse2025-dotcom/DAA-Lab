@@ -1,0 +1,21 @@
+Array : [3, 1, 7, 4, 9, 2, 8, 5, 6, 0]
+
+Minimum Value : 0
+Maximum Value : 9
+Range of Array : 9
+
+Divide & Conquer Comparisons : 14
+Naive Comparisons            : 18
+Comparisons Saved            : 4
+Efficiency Improvement       : 22.22%
+
+    Size     DC Comps        Naive       3n/2-2
+--------------------------------------------------
+      10           14           18           13
+     100          162          198          148
+    1000         1510         1998         1498
+   10000        15902        19998        14998
+
+========== Analysis ==========
+Divide & Conquer uses fewer comparisons than the Naive method.
+Program completed successfully.
